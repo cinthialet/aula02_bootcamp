@@ -37,12 +37,18 @@
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
 
-num1 = float(input("Digite um número quebrado: "))
-num2 = float(input("Digite outro número quebrado: "))
-resultado = num1 + num2
-print("O resultado da adição é:", resultado)
+#num1 = float(input("Digite um número quebrado: "))
+#num2 = float(input("Digite outro número quebrado: "))
+#resultado = num1 + num2
+#print("O resultado da adição é:", resultado)
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+
+num1 = float(input("Digite o primeiro numero quebrado: "))
+num2 = float(input("Digite o segundo numero quebrado: "))
+resultado_media = (num1 + num2) / 2 
+print("O resultado da média é: ", resultado_media)
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
